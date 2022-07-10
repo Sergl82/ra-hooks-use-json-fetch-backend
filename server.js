@@ -17,7 +17,7 @@ app.use(
 app.use(async (ctx, next) => {
   ctx.response.set(
     "Access-Control-Allow-Origin",
-    ""
+    "https://sergl82.github.io/ra-hooks-use-json-fetch/"
   );
   await next();
 });
